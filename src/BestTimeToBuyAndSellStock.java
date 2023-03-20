@@ -11,6 +11,8 @@ public class BestTimeToBuyAndSellStock {
     }
 
     public static int maxProfit(int[] prices) {
+        // min buy, max sell. buy must be first
+        // simple logic: find min value for max profit, substract and compare
         int maxProfit = 0;
         int minPrice = prices[0];
 
