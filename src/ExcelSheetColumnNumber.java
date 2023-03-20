@@ -5,7 +5,7 @@ public class ExcelSheetColumnNumber {
         String str = "A";
         String str2 = "AB";
         String str3 = "ZY";
-        String str4 = "AAZ";
+
 
         System.out.println(titleToNumber(str)); // 26^0 + 0 = 1
         System.out.println(titleToNumber(str2)); // 26^1 + 2 = 28
