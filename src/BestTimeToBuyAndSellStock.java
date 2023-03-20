@@ -5,19 +5,19 @@ public class BestTimeToBuyAndSellStock {
         int[] price = {7, 1, 5, 3, 6, 4};
         int[] price2 = {7, 6, 4, 3, 1};
 
-        System.out.println(maxProfit2(price)); // 5
-        System.out.println(maxProfit2(price2)); // 0
+        System.out.println(maxProfit(price)); // 5
+        System.out.println(maxProfit(price2)); // 0
 
     }
 
-    public static int maxProfit2(int[] prices) {
+    public static int maxProfit(int[] prices) {
         int maxProfit = 0;
         int minPrice = prices[0];
 
         for (int i = 1; i < prices.length; i++) {
 
-            minPrice = Math.min(minPrice,prices[i]);
-            maxProfit = Math.max(maxProfit,prices[i]-minPrice);
+            minPrice = Math.min(minPrice, prices[i]);
+            maxProfit = Math.max(maxProfit, prices[i] - minPrice);
         }
         return maxProfit;
     }

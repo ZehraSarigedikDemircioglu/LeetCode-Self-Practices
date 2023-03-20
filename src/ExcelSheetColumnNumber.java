@@ -6,7 +6,6 @@ public class ExcelSheetColumnNumber {
         String str2 = "AB";
         String str3 = "ZY";
 
-
         System.out.println(titleToNumber(str)); // 26^0 + 0 = 1
         System.out.println(titleToNumber(str2)); // 26^1 + 2 = 28
         System.out.println(titleToNumber(str3)); // 26^2 + 25 = 701
@@ -14,7 +13,7 @@ public class ExcelSheetColumnNumber {
     }
     public static int titleToNumber(String columnTitle) {
         // there will be a polynomial like this 26^0.x + 26^1.x + ...+26^(n-1).x, n = length
-        // x will be (ch - 64) , ch current character from ASCII table
+        // x will be (ch - 64) , ch current character from ASCII table since 'A' = 65 as a first char.
 
         int result = 0;
 
