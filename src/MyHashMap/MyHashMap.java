@@ -68,7 +68,7 @@ public class MyHashMap {
         // Map<Integer, Integer> map = new HashMap<>();
         if (current == null) System.out.println("null");
         while (current != null) {
-            System.out.print("(" + current.key + "," + current.value + ")");
+            System.out.print("{" + current.key + "=" + current.value+ "} ");
             current = current.next;
         }
         System.out.println();
