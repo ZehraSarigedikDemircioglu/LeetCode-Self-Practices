@@ -32,8 +32,8 @@ public class SingleNumber {
     public static int singleNumber2(int[] nums) {
 
         int result = 0;
-        for (int i : nums) {
-            result ^= i;
+        for (int num : nums) {
+            result ^= num; // result = result^num
         }
         return result;
     }
