@@ -23,7 +23,7 @@ public class PlusOne {
             if (digits[i] < 9) {
                 digits[i] = digits[i] + 1;
                 return digits;
-            }else if(digits[i] == 9) {
+            }else { // digits[i] == 9
                 digits[i] = 0;
             }
         }
