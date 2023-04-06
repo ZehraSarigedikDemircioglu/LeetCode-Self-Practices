@@ -18,13 +18,14 @@ public class PlusOne {
 
     public static int[] plusOne(int[] digits) {
 
-        for (int i = 0; i < digits.length; i++) {
+        for (int i = digits.length - 1; i >= 0; i--) {
 
             if (digits[i] < 9) {
-                digits[digits.length - 1] = digits[digits.length - 1] + 1;
+                digits[i] = digits[i] + 1;
                 return digits;
+            }else if(digits[i] == 9) {
+                digits[i] = 0;
             }
-            digits[i] = 0;
         }
 
         int[] newDigits = new int[digits.length + 1];
