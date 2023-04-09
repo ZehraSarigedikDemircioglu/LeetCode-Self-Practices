@@ -1,4 +1,4 @@
-package MyHashMap;
+package medium.MyHashMap;
 
 public class MyHashMapApp {
     public static void main(String[] args) {

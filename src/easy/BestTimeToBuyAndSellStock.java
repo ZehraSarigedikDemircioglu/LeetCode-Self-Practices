@@ -1,3 +1,5 @@
+package easy;
+
 public class BestTimeToBuyAndSellStock {
 
     public static void main(String[] args) {
