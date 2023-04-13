@@ -9,7 +9,6 @@ public class HappyNumber {
         System.out.println(isHappy(2)); // false
         System.out.println(isHappy(19)); // true
     }
-
     public static boolean isHappy(int n) {
         // first squares and sum of them while n > 0, if the result = 1, then true
 
