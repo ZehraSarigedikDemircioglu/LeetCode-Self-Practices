@@ -26,7 +26,7 @@ public class HappyNumber {
             }
             n = sumOfSquares;
         }
-        return n == 1 ? true : false;
+        return n == 1;
     }
 }
 /*
