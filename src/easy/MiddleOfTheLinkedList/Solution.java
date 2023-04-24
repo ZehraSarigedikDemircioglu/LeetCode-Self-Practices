@@ -15,6 +15,7 @@ public class Solution {
             return slow;
         }else{
             return slow.next;
+
         }
     }
 }
