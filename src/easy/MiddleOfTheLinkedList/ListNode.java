@@ -4,4 +4,5 @@ public class ListNode {
 
     int id;
     ListNode next;
+
 }
