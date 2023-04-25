@@ -4,13 +4,13 @@ public class ClimbingStairs {
 
     public static void main(String[] args) {
 
-        System.out.println(climbStairs2(2)); // 2
-        System.out.println(climbStairs2(3)); // 3
-        System.out.println(climbStairs2(4)); // 5
-        System.out.println(climbStairs2(5)); // 8
+        System.out.println(climbStairs(2)); // 2
+        System.out.println(climbStairs(3)); // 3
+        System.out.println(climbStairs(4)); // 5
+        System.out.println(climbStairs(5)); // 8
 
     }
-    public static int climbStairs2(int n) {
+    public static int climbStairs(int n) {
         if (n == 1) {
             return 1;
         }
