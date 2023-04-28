@@ -1,4 +1,4 @@
-package easy.LinkedListCycle;
+package medium.LinkedListCycle;
 
 import java.util.HashSet;
 
@@ -56,3 +56,4 @@ Example 3:
 Input: head = [1], pos = -1
 Output: no cycle
 Explanation: There is no cycle in the linked list.
+*/
