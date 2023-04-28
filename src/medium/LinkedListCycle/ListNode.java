@@ -1,4 +1,4 @@
-package easy.LinkedListCycle;
+package medium.LinkedListCycle;
 
 public class ListNode {
 
