@@ -10,9 +10,13 @@ public class Solution {
         while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
-            if (slow == fast) break;
+            if (slow == fast){
+                break;
+            }
         }
-        if (fast == null || fast.next == null) return null;
+        if (fast == null || fast.next == null){
+            return null;
+        }
         while (head != slow) {
             head = head.next;
             slow = slow.next;
